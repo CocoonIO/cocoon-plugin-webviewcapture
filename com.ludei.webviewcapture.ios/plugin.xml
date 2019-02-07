@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cocoon-plugin-webviewcapture-ios"
+    version="1.0.0">
+
+    <name>Cocoon iOS Webview Capture plugin</name>
+    <description>Cocoon plugin.</description>
+    <license>Copyright Ludei</license>
+    <keywords>cordova, ludei, cocoon, application</keywords>
+    <repo></repo>
+    <issue></issue>
+
+    <engines>
+      <engine name="cordova-android" version=">=4" />
+      <engine name="cordova-plugman" version=">=4.2.0" />
+    </engines>
+
+    <platform name="ios">
+        <source-file src="src/libLudeiExtensionWebviewCapture.a" framework="true" />  
+    </platform>
+</plugin>
